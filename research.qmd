@@ -1,0 +1,49 @@
+---
+title: "Research"
+---
+
+<p style="max-width: 700px; font-size: 1.1rem; color: #5c7549;">
+<em>A short intro to your research agenda — one or two sentences on the throughline connecting your projects.</em>
+</p>
+
+<hr class="scallop-divider">
+
+## Working Papers
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
+### [Paper Title Goes Here](#)
+*with [Coauthor Name], if applicable*
+
+Short abstract or one-sentence summary of the paper's contribution goes here.
+
+<span class="pill-tag">Working Paper</span> <span class="pill-tag">Under Review</span>
+:::
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
+### [Another Paper Title](#)
+
+Short abstract or one-sentence summary of the paper's contribution goes here.
+
+<span class="pill-tag">Draft available upon request</span>
+:::
+
+<hr class="scallop-divider">
+
+## Publications
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
+### [Published Paper Title](#)
+Author(s). (Year). *Journal Name*, Volume(Issue), pages.
+
+<span class="pill-tag">Published</span>
+:::
+
+<hr class="scallop-divider">
+
+## Dissertation
+
+::: {.card-soft}
+**[Dissertation Working Title]**
+
+A brief description of your dissertation project and its chapters.
+:::

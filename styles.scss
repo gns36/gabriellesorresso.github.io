@@ -1,0 +1,165 @@
+/*-- scss:defaults --*/
+
+// Coastal chic palette — pulled from the sage stripe + scallop prints
+$sage:        #7f9c68;
+$sage-dark:   #5c7549;
+$sage-light:  #c9d9b8;
+$sky:         #eaf3fa;
+$sky-deep:    #d3e6f2;
+$powder-blue: #a9c9dd;
+$ink:         #3c3a32;
+
+$body-bg: $sky;
+$body-color: $ink;
+$link-color: $sage-dark;
+
+$font-family-sans-serif: "Jost", "Avenir Next", "Helvetica Neue", sans-serif;
+$headings-font-family: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+$headings-color: $sage-dark;
+$headings-font-weight: 600;
+
+$navbar-fg: $ink;
+$navbar-hl: $sage-dark;
+
+$footer-bg: $sky-deep;
+$footer-fg: $ink;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap');
+
+body {
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.01em;
+}
+
+h1.title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+// striped print as a big banner header across the top of every page
+.navbar {
+  border-bottom: 2px solid $powder-blue;
+  box-shadow: none;
+  min-height: 150px;
+  background-image: url('images/stripe-print.jpg');
+  background-repeat: repeat;
+  background-size: 260px auto;
+  align-items: center;
+}
+
+.navbar .navbar-container {
+  align-items: center;
+}
+
+.navbar-title,
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: $sage-dark !important;
+  background-color: rgba(255, 255, 255, 0.82);
+  padding: 0.4rem 1.2rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 16px rgba(60, 58, 50, 0.1);
+}
+
+.navbar .nav-link {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 0.45rem 1rem !important;
+  border-radius: 999px;
+  margin: 0 0.2rem;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: $sage;
+  text-decoration: underline;
+}
+
+.btn, .btn-primary {
+  background-color: $sage-dark;
+  border-color: $sage-dark;
+  border-radius: 999px;
+  padding: 0.5rem 1.6rem;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
+.btn:hover, .btn-primary:hover {
+  background-color: $sage;
+  border-color: $sage;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1.5px solid $sage-dark;
+  color: $sage-dark;
+}
+
+.btn-outline:hover {
+  background-color: $sage-dark;
+  color: $sky;
+}
+
+// soft divider using the scallop print
+hr.scallop-divider {
+  border: none;
+  height: 48px;
+  margin: 3rem auto;
+  max-width: 900px;
+  background-image: url('images/scallop-print.jpg');
+  background-repeat: repeat-x;
+  background-size: auto 140px;
+  background-position: center -46px;
+  opacity: 0.6;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
+
+.card-soft {
+  background-color: white;
+  border: 1px solid $sky-deep;
+  border-radius: 14px;
+  padding: 1.75rem;
+  box-shadow: 0 6px 24px rgba(92, 117, 73, 0.08);
+}
+
+.pill-tag {
+  display: inline-block;
+  background-color: $sage-light;
+  color: $sage-dark;
+  border-radius: 999px;
+  padding: 0.25rem 0.85rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  margin: 0.2rem 0.3rem 0.2rem 0;
+}
+
+.headshot-frame img {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(92, 117, 73, 0.18);
+}
+
+footer.footer {
+  border-top: 1px solid $powder-blue;
+  font-size: 0.85rem;
+}

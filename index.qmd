@@ -1,0 +1,46 @@
+---
+title: ""
+---
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .headshot-frame}
+![](images/headshot.jpg){width="280px"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+# Gabrielle Sorresso
+
+*PhD Candidate, Cornell Jeb E. Brooks School of Public Policy*
+
+Hi, I'm Gabrielle — a 5th-year PhD candidate at Cornell University, where my research sits at the intersection of *[your field, e.g., health policy / social policy / political economy]*. I'm broadly interested in *[one or two sentences on your research interests]*.
+
+Before Cornell, I *[brief background — prior degree, job, etc.]*. Outside of research, you can usually find me *[a personal detail or two — the "chic" personality touch]*.
+
+<a class="btn btn-primary" href="mailto:gabrielle.sorresso@gmail.com">Email Me</a>
+<a class="btn btn-outline" href="cv.qmd">View CV</a>
+
+:::
+
+::::
+
+<hr class="scallop-divider">
+
+## Education
+
+::: {.card-soft}
+**PhD in Public Policy** — Cornell University *(expected 2027)*
+: *[Committee / concentration]*
+
+**[Degree]** — *[Institution]* *(Year)*
+:::
+
+<hr class="scallop-divider">
+
+## Research Interests
+
+<span class="pill-tag">Public Policy</span>
+<span class="pill-tag">[Interest 2]</span>
+<span class="pill-tag">[Interest 3]</span>
+<span class="pill-tag">[Interest 4]</span>
