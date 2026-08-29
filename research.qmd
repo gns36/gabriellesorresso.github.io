@@ -14,19 +14,27 @@ with Sharon Sassler. (2026). *RSF: The Russell Sage Foundation Journal of the So
 ## Working Papers
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
+### It Was Already Dobbs: Abortion Bans and Maternal Health
+
+The Supreme Court's decision in *Dobbs v. Jackson Women's Health Organization* raised concerns that strict state abortion bans would worsen maternal health through delayed emergency care, restricted access to terminations, and reduced OB-GYN supply. Using claims data for nearly one million pregnancies among commercially and Medicaid-insured women from 2020 to 2024, I estimate the effect of these bans in a staggered difference-in-differences design using states that protect abortion rights as controls. Effects on routine care-receipt outcomes are small and precisely estimated; the adverse-pregnancy-outcome composite rules out effects larger than 3.5% of the pre-policy treated mean. Neither shifts in pregnancy composition nor changes in OB-GYN supply explain these results. These findings suggest telehealth abortion access may have absorbed much of the demand shock, while pre-ban restrictions had already limited the marginal effect of bans on downstream care.
+
+<span class="pill-tag">Scheduled Presentation: SEA</span>
+:::
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
 ### First Do No Harm: The Labor Market Consequences of a Physician Disciplinary Record
 with Colleen Carey and Amanda Agan
 
 Using a novel dataset of 70,000 state medical board disciplinary actions across more than 40 states (2008–2023), we provide the first evidence on how State Medical Board discipline affects subsequent physician careers. Most disciplined physicians continue practicing—often in a new state and supplying fewer claims—evidence that can inform the optimal design of state oversight and disciplinary actions.
 
-<span class="pill-tag">Presented at APPAM</span> <span class="pill-tag">Presented at SOLE</span> <span class="pill-tag">Presented at ASHE</span>
+<span class="pill-tag">Presented at APPAM</span> <span class="pill-tag">Presented at SOLE</span> <span class="pill-tag">Presented at ASHE</span> <span class="pill-tag">Scheduled Presentation: SEA</span>
 :::
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
 ### Inequality Within the Family or Within Professions? The Role of Assortative Mating in Shaping the Gender Wage Gap Among "Power Couples"
 with Sharon Sassler
 
-<a href="https://submissions.mirasmart.com/PAA2026/Itinerary/PresentationDetail.aspx?evdid=335" target="_blank" rel="noopener" class="pill-tag">Presented at PAA 2026</a>
+<span class="pill-tag">Presented at PAA 2026</span>
 :::
 
 ## Works in Progress

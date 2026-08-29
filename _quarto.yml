@@ -35,3 +35,4 @@ format:
       - styles.scss
     toc: false
     smooth-scroll: true
+    anchor-sections: false
