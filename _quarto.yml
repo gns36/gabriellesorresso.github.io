@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Gabrielle Sorresso"
-  site-url: "https://gabriellesorresso.com"
+  site-url: "https://gns36.github.io/gabriellesorresso.github.io"
   favicon: images/favicon.svg
   navbar:
     background: white
