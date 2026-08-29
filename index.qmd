@@ -5,7 +5,9 @@ title: ""
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4 .headshot-frame}
+::: {.headshot-circle}
 ![](images/headshot.jpg)
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-8 .name-block}
