@@ -8,7 +8,7 @@ title: ""
 ![](images/headshot.jpg)
 :::
 
-::: {.g-col-12 .g-col-md-8}
+::: {.g-col-12 .g-col-md-8 .intro-block}
 
 # Gabrielle Sorresso {.site-name}
 

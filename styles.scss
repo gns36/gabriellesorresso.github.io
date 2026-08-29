@@ -29,8 +29,16 @@ $footer-fg: $ink;
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap');
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   letter-spacing: 0.01em;
+}
+
+#quarto-search {
+  max-width: 100%;
 }
 
 h1, h2, h3 {
@@ -76,9 +84,28 @@ $stripe-band-height: 140px;
   display: none;
 }
 
+.navbar-toggler {
+  display: none !important;
+}
+
 .navbar-collapse {
+  display: flex !important;
+  flex-wrap: wrap;
   flex-basis: 100%;
   justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav.me-auto,
+  .navbar-nav.ms-auto {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 .navbar-nav {
@@ -192,9 +219,24 @@ hr.scallop-divider {
   height: auto;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 25%;
   box-shadow: 0 10px 30px rgba(92, 117, 73, 0.18);
   border: 5px solid white;
+}
+
+@media (max-width: 767.98px) {
+  .headshot-frame {
+    order: 2;
+    margin: 1.5rem auto 0;
+  }
+
+  .headshot-frame img {
+    margin: 0 auto;
+  }
+
+  .intro-block {
+    order: 1;
+  }
 }
 
 // scalloped band across the bottom of every page, mirroring the top stripe banner
@@ -219,4 +261,25 @@ footer.footer::before {
   background-repeat: repeat-x;
   background-size: auto 230px;
   background-position: center -78px;
+}
+
+// Quarto's page-columns grid reserves a 500px-minimum content track (for
+// margin-note layouts we don't use), which forces horizontal overflow on
+// any screen narrower than ~550px. Abandon the grid entirely on mobile so
+// .content (and friends, positioned via named grid-column lines) just
+// stack as normal full-width blocks instead.
+@media (max-width: 767.98px) {
+  .page-columns {
+    display: block !important;
+  }
+
+  .content,
+  .quarto-title-block,
+  #title-block-header {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+  }
 }
