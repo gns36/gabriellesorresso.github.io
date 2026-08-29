@@ -8,6 +8,7 @@ $sky:         #eaf3fa;
 $sky-deep:    #d3e6f2;
 $powder-blue: #a9c9dd;
 $ink:         #3c3a32;
+$navy:        #24405e;
 
 $body-bg: $sky;
 $body-color: $ink;
@@ -15,7 +16,7 @@ $link-color: $sage-dark;
 
 $font-family-sans-serif: "Jost", "Avenir Next", "Helvetica Neue", sans-serif;
 $headings-font-family: "Cormorant Garamond", "Playfair Display", Georgia, serif;
-$headings-color: $sage-dark;
+$headings-color: $navy;
 $headings-font-weight: 600;
 
 $navbar-fg: $ink;
@@ -39,33 +40,51 @@ h1, h2, h3 {
 h1.title {
   font-size: 3rem;
   font-weight: 600;
+  color: $navy !important;
 }
 
-// striped print as a big banner header across the top of every page
+// striped print as a big blank banner across the top of every page,
+// with the nav buttons living in a plain row underneath it
+$stripe-band-height: 140px;
+
 .navbar {
+  position: relative;
   border-bottom: 2px solid $powder-blue;
   box-shadow: none;
-  min-height: 150px;
+  background-color: $sky;
+  padding-top: #{$stripe-band-height};
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: #{$stripe-band-height};
   background-image: url('images/stripe-print.jpg');
   background-repeat: repeat;
   background-size: 260px auto;
-  align-items: center;
 }
 
 .navbar .navbar-container {
-  align-items: center;
+  flex-wrap: wrap;
 }
 
-.navbar-title,
-.navbar-brand {
-  font-family: $headings-font-family;
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: $sage-dark !important;
-  background-color: rgba(255, 255, 255, 0.82);
-  padding: 0.4rem 1.2rem;
-  border-radius: 999px;
-  box-shadow: 0 4px 16px rgba(60, 58, 50, 0.1);
+// name/brand is hidden from the nav — it appears as the page heading instead
+.navbar-brand-container {
+  display: none;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .navbar .nav-link {
@@ -74,14 +93,13 @@ h1.title {
   font-size: 0.82rem;
   letter-spacing: 0.08em;
   font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.75);
-  padding: 0.45rem 1rem !important;
-  border-radius: 999px;
-  margin: 0 0.2rem;
+  color: $sage-dark;
+  padding: 0.5rem 1.1rem !important;
+  margin: 0.4rem 0.2rem;
 }
 
 .navbar .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.95);
+  color: $navy;
 }
 
 a {
@@ -94,30 +112,33 @@ a:hover {
 }
 
 .btn, .btn-primary {
-  background-color: $sage-dark;
-  border-color: $sage-dark;
+  background-color: $sage-light;
+  border-color: $sage-light;
   border-radius: 999px;
   padding: 0.5rem 1.6rem;
   font-family: $font-family-sans-serif;
   text-transform: uppercase;
   font-size: 0.78rem;
   letter-spacing: 0.08em;
+  color: $sage-dark;
+  font-weight: 600;
 }
 
 .btn:hover, .btn-primary:hover {
   background-color: $sage;
   border-color: $sage;
+  color: white;
 }
 
 .btn-outline {
   background-color: transparent;
-  border: 1.5px solid $sage-dark;
+  border: 1.5px solid $sage-light;
   color: $sage-dark;
 }
 
 .btn-outline:hover {
-  background-color: $sage-dark;
-  color: $sky;
+  background-color: $sage-light;
+  color: $sage-dark;
 }
 
 // soft divider using the scallop print
@@ -136,11 +157,11 @@ hr.scallop-divider {
 }
 
 .card-soft {
-  background-color: white;
-  border: 1px solid $sky-deep;
+  background-color: #f6fafc;
+  border: 1px solid rgba(36, 64, 94, 0.1);
   border-radius: 14px;
   padding: 1.75rem;
-  box-shadow: 0 6px 24px rgba(92, 117, 73, 0.08);
+  box-shadow: 0 6px 20px rgba(36, 64, 94, 0.06);
 }
 
 .pill-tag {
@@ -154,12 +175,48 @@ hr.scallop-divider {
   margin: 0.2rem 0.3rem 0.2rem 0;
 }
 
-.headshot-frame img {
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(92, 117, 73, 0.18);
+.site-name {
+  color: $navy !important;
 }
 
+.headshot-frame {
+  align-self: start;
+  margin-top: -0.5rem;
+}
+
+.headshot-frame img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 10px 30px rgba(92, 117, 73, 0.18);
+  border: 5px solid white;
+}
+
+// scalloped band across the bottom of every page, mirroring the top stripe banner
+$scallop-band-height: 80px;
+
 footer.footer {
-  border-top: 1px solid $powder-blue;
+  position: relative;
+  background-color: $sky-deep;
+  border-top: none;
   font-size: 0.85rem;
+  padding-top: #{$scallop-band-height + 24px};
+}
+
+footer.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: #{$scallop-band-height};
+  background-image: url('images/scallop-print.jpg');
+  background-repeat: repeat-x;
+  background-size: auto 230px;
+  background-position: center -78px;
 }

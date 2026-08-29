@@ -3,30 +3,19 @@ title: "CV"
 ---
 
 <!--
-  To update the CV: replace the Overleaf link below (both places it appears)
-  with your Overleaf read-only "share link" (Overleaf -> Share -> Link sharing ->
-  "anyone with the link can view"). It looks like:
-  https://www.overleaf.com/read/xxxxxxxxxxxx
+  To update the CV: recompile main.tex in OverLeaf_CV/ and copy the resulting
+  main.pdf over Website/files/Sorresso_CV.pdf
 -->
 
-<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
-<p style="margin: 0; color: #5c7549;">Kept up to date via Overleaf.</p>
+<div style="margin-bottom: 1rem;">
 <a class="btn btn-primary" href="https://www.overleaf.com/read/ppmhmwdjhhnf#9b8784" target="_blank" rel="noopener">Open / Download CV ↗</a>
 </div>
 
-<hr class="scallop-divider">
-
 ::: {.card-soft style="padding: 0.5rem;"}
 ```{=html}
-<iframe
-  src="https://www.overleaf.com/read/ppmhmwdjhhnf#9b8784"
-  style="width: 100%; height: 1100px; border: none; border-radius: 10px;"
-  loading="lazy"
-  title="Gabrielle Sorresso CV">
-</iframe>
+<embed
+  src="files/Sorresso_CV.pdf"
+  type="application/pdf"
+  style="width: 100%; height: 1100px; border: none; border-radius: 10px;">
 ```
 :::
-
-<p style="font-size: 0.85rem; color: #7f9c68; margin-top: 0.75rem;">
-If the CV doesn't display above (Overleaf sometimes blocks embedding), use the "Open / Download CV" button instead.
-</p>

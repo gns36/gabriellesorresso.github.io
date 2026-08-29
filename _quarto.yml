@@ -18,10 +18,10 @@ website:
         text: CV
     right:
       - icon: envelope
-        href: mailto:gabrielle.sorresso@gmail.com
+        href: mailto:gns36@cornell.edu
         aria-label: Email
       - icon: linkedin
-        href: https://www.linkedin.com/
+        href: https://www.linkedin.com/in/gabrielle-sorresso-5b1316185/
         aria-label: LinkedIn
   page-footer:
     background: light

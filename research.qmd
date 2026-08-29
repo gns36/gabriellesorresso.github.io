@@ -2,43 +2,32 @@
 title: "Research"
 ---
 
-<p style="max-width: 700px; font-size: 1.1rem; color: #5c7549;">
-<em>A short intro to your research agenda — one or two sentences on the throughline connecting your projects.</em>
-</p>
-
-<hr class="scallop-divider">
-
 ## Working Papers
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
-### [Paper Title Goes Here](#)
-*with [Coauthor Name], if applicable*
+### [Inequality Within the Family or Within Professions? The Role of Assortative Mating in Shaping the Gender Wage Gap Among "Power Couples"](https://submissions.mirasmart.com/PAA2026/Itinerary/PresentationDetail.aspx?evdid=335)
+with Sharon Sassler
 
-Short abstract or one-sentence summary of the paper's contribution goes here.
-
-<span class="pill-tag">Working Paper</span> <span class="pill-tag">Under Review</span>
+<span class="pill-tag">Working Paper</span> <span class="pill-tag">Presented at PAA 2026</span>
 :::
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
-### [Another Paper Title](#)
+### [First Do No Harm: The Labor Market Consequences of a Physician Disciplinary Record](#)
+with Colleen Carey and Amanda Agan
 
-Short abstract or one-sentence summary of the paper's contribution goes here.
+State medical board disciplinary actions and physicians' future provision of care.
 
-<span class="pill-tag">Draft available upon request</span>
+<span class="pill-tag">Working Paper</span> <span class="pill-tag">Presented at APPAM</span> <span class="pill-tag">Presented at SOLE</span> <span class="pill-tag">Presented at ASHE</span>
 :::
-
-<hr class="scallop-divider">
 
 ## Publications
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
-### [Published Paper Title](#)
-Author(s). (Year). *Journal Name*, Volume(Issue), pages.
+### [Narrowing the Gender Wage Gap Among Computer Science Professionals: What Differentiates the Earnings of Asian and White Workers?](https://doi.org/10.7758/RSF.2026.12.3.05)
+with Sharon Sassler. (2026). *RSF: The Russell Sage Foundation Journal of the Social Sciences*, 12(3), 98–123.
 
 <span class="pill-tag">Published</span>
 :::
-
-<hr class="scallop-divider">
 
 ## Dissertation
 

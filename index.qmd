@@ -5,42 +5,24 @@ title: ""
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4 .headshot-frame}
-![](images/headshot.jpg){width="280px"}
+![](images/headshot.jpg)
 :::
 
 ::: {.g-col-12 .g-col-md-8}
 
-# Gabrielle Sorresso
+# Gabrielle Sorresso {.site-name}
 
 *PhD Candidate, Cornell Jeb E. Brooks School of Public Policy*
 
-Hi, I'm Gabrielle — a 5th-year PhD candidate at Cornell University, where my research sits at the intersection of *[your field, e.g., health policy / social policy / political economy]*. I'm broadly interested in *[one or two sentences on your research interests]*.
+Hi, I'm Gabrielle — a 5th-year PhD candidate at the Cornell Jeb E. Brooks School of Public Policy. I'm an applied microeconomist with research interests in health economics and gender. I use causal inference methods and large-scale administrative data, generally healthcare claims, to study the impacts of policy on maternal and children's health, mental health, and physician behavior in the healthcare system.
 
-Before Cornell, I *[brief background — prior degree, job, etc.]*. Outside of research, you can usually find me *[a personal detail or two — the "chic" personality touch]*.
+Right now, I'm working on a project examining the *Dobbs* decision and maternal health, which was recently recognized with the [Horowitz Foundation's Most Outstanding Project Award](https://publicpolicy.cornell.edu/news/brooks-phd-student-earns-horowitz-foundations-most-outstanding-project-award/). I also have a joint project with [Colleen Carey](https://sites.google.com/site/colleenmariecarey/) and [Amanda Agan](https://sites.google.com/site/amandayagan/) studying how state medical board disciplinary actions shape physicians' future provision of care.
 
-<a class="btn btn-primary" href="mailto:gabrielle.sorresso@gmail.com">Email Me</a>
-<a class="btn btn-outline" href="cv.qmd">View CV</a>
+My other work in progress looks at *Dobbs* and infant health, as well as environmental air pollution and children's mental health.
+
+<a class="btn btn-primary" href="mailto:gns36@cornell.edu">Email Me</a>
+<a class="btn btn-primary" href="cv.qmd">View CV</a>
 
 :::
 
 ::::
-
-<hr class="scallop-divider">
-
-## Education
-
-::: {.card-soft}
-**PhD in Public Policy** — Cornell University *(expected 2027)*
-: *[Committee / concentration]*
-
-**[Degree]** — *[Institution]* *(Year)*
-:::
-
-<hr class="scallop-divider">
-
-## Research Interests
-
-<span class="pill-tag">Public Policy</span>
-<span class="pill-tag">[Interest 2]</span>
-<span class="pill-tag">[Interest 3]</span>
-<span class="pill-tag">[Interest 4]</span>
