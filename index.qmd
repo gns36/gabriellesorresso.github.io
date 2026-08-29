@@ -8,11 +8,15 @@ title: ""
 ![](images/headshot.jpg)
 :::
 
-::: {.g-col-12 .g-col-md-8 .intro-block}
+::: {.g-col-12 .g-col-md-8 .name-block}
 
 # Gabrielle Sorresso {.site-name}
 
 *PhD Candidate, Cornell Jeb E. Brooks School of Public Policy*
+
+:::
+
+::: {.g-col-12 .g-col-md-8 .bio-block}
 
 Hi, I'm Gabrielle — a 5th-year PhD candidate at the Cornell Jeb E. Brooks School of Public Policy. I'm an applied microeconomist with research interests in health economics and gender. I use causal inference methods and large-scale administrative data, generally healthcare claims, to study the impacts of policy on maternal and children's health, mental health, and physician behavior in the healthcare system.
 

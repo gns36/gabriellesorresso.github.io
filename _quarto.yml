@@ -6,6 +6,7 @@ website:
   title: "Gabrielle Sorresso"
   site-url: "https://gns36.github.io/gabriellesorresso.github.io"
   favicon: images/favicon.svg
+  search: false
   navbar:
     background: white
     pinned: true

@@ -37,10 +37,6 @@ body {
   letter-spacing: 0.01em;
 }
 
-#quarto-search {
-  max-width: 100%;
-}
-
 h1, h2, h3 {
   letter-spacing: 0.01em;
 }
@@ -95,19 +91,6 @@ $stripe-band-height: 140px;
   justify-content: center;
 }
 
-@media (max-width: 991.98px) {
-  .navbar-collapse {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navbar-nav.me-auto,
-  .navbar-nav.ms-auto {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-}
-
 .navbar-nav {
   flex-direction: row;
   flex-wrap: wrap;
@@ -123,6 +106,29 @@ $stripe-band-height: 140px;
   color: $sage-dark;
   padding: 0.5rem 1.1rem !important;
   margin: 0.4rem 0.2rem;
+}
+
+// keep About/Research/CV + the two icon links all on one row on mobile
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    flex-wrap: nowrap;
+  }
+
+  .navbar-nav {
+    flex-wrap: nowrap;
+  }
+
+  .navbar-nav.me-auto,
+  .navbar-nav.ms-auto {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar .nav-link {
+    padding: 0.4rem 0.4rem !important;
+    margin: 0.2rem 0.05rem;
+    font-size: 0.65rem;
+  }
 }
 
 .navbar .nav-link:hover {
@@ -219,12 +225,35 @@ hr.scallop-divider {
   height: auto;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 25%;
+  object-position: center 8%;
   box-shadow: 0 10px 30px rgba(92, 117, 73, 0.18);
   border: 5px solid white;
 }
 
+// Desktop: photo sits in its own column spanning both the name and bio rows
+@media (min-width: 768px) {
+  .grid .headshot-frame {
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+  }
+
+  .grid .name-block {
+    grid-column: 5 / 13;
+    grid-row: 1;
+  }
+
+  .grid .bio-block {
+    grid-column: 5 / 13;
+    grid-row: 2;
+  }
+}
+
+// Mobile: name/title, then photo, then bio — pure stacking order
 @media (max-width: 767.98px) {
+  .name-block {
+    order: 1;
+  }
+
   .headshot-frame {
     order: 2;
     margin: 1.5rem auto 0;
@@ -234,8 +263,8 @@ hr.scallop-divider {
     margin: 0 auto;
   }
 
-  .intro-block {
-    order: 1;
+  .bio-block {
+    order: 3;
   }
 }
 
