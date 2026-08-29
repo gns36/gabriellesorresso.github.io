@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV ↓"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "with Sharon Sassler. (2026). RSF: The Russell Sage Foundation Journal of the Social Sciences, 12(3), 98–123.\nPublished Manuscript"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "with Sharon Sassler. (2026). RSF: The Russell Sage Foundation Journal of the Social Sciences, 12(3), 98–123.\nPublished Manuscript"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\nIt Was Already Dobbs: Abortion Bans and Maternal Health\nThe Supreme Court’s decision in Dobbs v. Jackson Women’s Health Organization raised concerns that strict state abortion bans would worsen maternal health through delayed emergency care, restricted access to terminations, and reduced OB-GYN supply. Using claims data for nearly one million pregnancies among commercially and Medicaid-insured women from 2020 to 2024, I estimate the effect of these bans in a staggered difference-in-differences design using states that protect abortion rights as controls. Effects on routine care-receipt outcomes are small and precisely estimated; the adverse-pregnancy-outcome composite rules out effects larger than 3.5% of the pre-policy treated mean. Neither shifts in pregnancy composition nor changes in OB-GYN supply explain these results. These findings suggest telehealth abortion access may have absorbed much of the demand shock, while pre-ban restrictions had already limited the marginal effect of bans on downstream care.\nScheduled Presentation: SEA 2026\n\n\nFirst Do No Harm: The Labor Market Consequences of a Physician Disciplinary Record\nwith Colleen Carey and Amanda Agan\nUsing a novel dataset of 70,000 state medical board disciplinary actions across more than 40 states (2008–2023), we provide the first evidence on how State Medical Board discipline affects subsequent physician careers. Most disciplined physicians continue practicing—often in a new state and supplying fewer claims—evidence that can inform the optimal design of state oversight and disciplinary actions.\nPresented at APPAM 2025 Presented at SOLE 2026 Presented at ASHE 2026 Scheduled Presentation: SEA 2026\n\n\nInequality Within the Family or Within Professions? The Role of Assortative Mating in Shaping the Gender Wage Gap Among “Power Couples”\nwith Sharon Sassler\nPresented at PAA 2026"
+  },
+  {
+    "objectID": "research.html#works-in-progress",
+    "href": "research.html#works-in-progress",
+    "title": "Research",
+    "section": "Works in Progress",
+    "text": "Works in Progress\n\nChildhood Air Pollution Exposure and Mental Health: Evidence from Claims Data\n\n\nBorn After Dobbs: Abortion Bans, Prenatal Diagnosis, and the Prevalence of Congenital Conditions"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gabrielle Sorresso",
+    "section": "",
+    "text": "Gabrielle Sorresso\nPhD Candidate, Cornell Jeb E. Brooks School of Public Policy\n\n\nHi, I’m Gabrielle — a 5th-year PhD candidate at the Cornell Jeb E. Brooks School of Public Policy. I’m an applied microeconomist with research interests in health economics and gender. I use causal inference methods and large-scale administrative data, generally healthcare claims, to study the impacts of policy on maternal and children’s health, mental health, and physician behavior in the healthcare system.\nRight now, I’m working on a project examining the Dobbs decision and maternal health, which was recently recognized with the Horowitz Foundation’s Most Outstanding Project Award. I also have a joint project with Colleen Carey and Amanda Agan studying how state medical board disciplinary actions shape physicians’ future provision of care.\nMy other work in progress looks at Dobbs and infant health, as well as environmental air pollution and children’s mental health.\nEmail Me View CV"
+  }
+]
