@@ -8,7 +8,7 @@ title: "CV"
 -->
 
 <div style="margin-bottom: 1rem;">
-<a class="btn btn-primary" href="https://www.overleaf.com/read/ppmhmwdjhhnf#9b8784" target="_blank" rel="noopener">Open / Download CV ↗</a>
+<a class="btn btn-primary" href="files/Sorresso_CV.pdf" download="Sorresso_CV.pdf">Download CV ↓</a>
 </div>
 
 ::: {.card-soft style="padding: 0.5rem;"}

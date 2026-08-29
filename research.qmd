@@ -2,37 +2,39 @@
 title: "Research"
 ---
 
-## Working Papers
-
-::: {.card-soft style="margin-bottom: 1.5rem;"}
-### [Inequality Within the Family or Within Professions? The Role of Assortative Mating in Shaping the Gender Wage Gap Among "Power Couples"](https://submissions.mirasmart.com/PAA2026/Itinerary/PresentationDetail.aspx?evdid=335)
-with Sharon Sassler
-
-<span class="pill-tag">Working Paper</span> <span class="pill-tag">Presented at PAA 2026</span>
-:::
-
-::: {.card-soft style="margin-bottom: 1.5rem;"}
-### [First Do No Harm: The Labor Market Consequences of a Physician Disciplinary Record](#)
-with Colleen Carey and Amanda Agan
-
-State medical board disciplinary actions and physicians' future provision of care.
-
-<span class="pill-tag">Working Paper</span> <span class="pill-tag">Presented at APPAM</span> <span class="pill-tag">Presented at SOLE</span> <span class="pill-tag">Presented at ASHE</span>
-:::
-
 ## Publications
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
-### [Narrowing the Gender Wage Gap Among Computer Science Professionals: What Differentiates the Earnings of Asian and White Workers?](https://doi.org/10.7758/RSF.2026.12.3.05)
+### Narrowing the Gender Wage Gap Among Computer Science Professionals: What Differentiates the Earnings of Asian and White Workers?
 with Sharon Sassler. (2026). *RSF: The Russell Sage Foundation Journal of the Social Sciences*, 12(3), 98–123.
 
-<span class="pill-tag">Published</span>
+<a href="https://doi.org/10.7758/RSF.2026.12.3.05" target="_blank" rel="noopener" class="pill-tag">Published Manuscript</a>
 :::
 
-## Dissertation
+## Working Papers
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
+### First Do No Harm: The Labor Market Consequences of a Physician Disciplinary Record
+with Colleen Carey and Amanda Agan
+
+Using a novel dataset of 70,000 state medical board disciplinary actions across more than 40 states (2008–2023), we provide the first evidence on how State Medical Board discipline affects subsequent physician careers. Most disciplined physicians continue practicing—often in a new state and supplying fewer claims—evidence that can inform the optimal design of state oversight and disciplinary actions.
+
+<span class="pill-tag">Presented at APPAM</span> <span class="pill-tag">Presented at SOLE</span> <span class="pill-tag">Presented at ASHE</span>
+:::
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
+### Inequality Within the Family or Within Professions? The Role of Assortative Mating in Shaping the Gender Wage Gap Among "Power Couples"
+with Sharon Sassler
+
+<a href="https://submissions.mirasmart.com/PAA2026/Itinerary/PresentationDetail.aspx?evdid=335" target="_blank" rel="noopener" class="pill-tag">Presented at PAA 2026</a>
+:::
+
+## Works in Progress
 
 ::: {.card-soft}
-**[Dissertation Working Title]**
+### Childhood Air Pollution Exposure and Mental Health: Evidence from Claims Data
+:::
 
-A brief description of your dissertation project and its chapters.
+::: {.card-soft style="margin-top: 1.5rem;"}
+### Born After Dobbs: Abortion Bans, Prenatal Diagnosis, and the Prevalence of Congenital Conditions
 :::
