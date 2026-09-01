@@ -1,0 +1,30 @@
+---
+title: "Teaching"
+---
+
+## Cornell University
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
+### PUBPOL 2030: Population and Demography
+Teaching Assistant for Sharon Sassler · Spring 2024
+
+An introduction to economic demography for first- and second-year undergraduates. I oversaw a team of six undergraduate teaching assistants, coordinating and supervising their weekly discussion sections, and guest lectured on the gender wage gap.
+
+<span class="pill-tag">Outstanding Teaching Assistant Award, Brooks School</span>
+:::
+
+::: {.card-soft style="margin-bottom: 1.5rem;"}
+### PADM 5310: Applied Multivariate Statistics in Public Affairs
+Teaching Assistant for Doug Miller · Fall 2023
+
+An introduction to statistics and causal inference methods for MPA students. I led weekly lab sections training students in Stata, guiding them from data management through the estimation and interpretation of applied empirical analysis.
+:::
+
+## Colgate University
+
+::: {.card-soft}
+### ECON 375: Introduction to Econometrics
+Teaching Assistant for Carolina Castilla · Fall 2021 & Spring 2022
+
+An introduction to econometric methods for junior and senior undergraduates. I oversaw and led weekly lab sections covering core econometric methods, and advised students on the independent empirical research projects they completed at the end of each term.
+:::
