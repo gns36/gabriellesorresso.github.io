@@ -2,8 +2,6 @@
 title: "Research"
 ---
 
-My research studies how health and reproductive policy shapes the health and economic well-being of women, children, and families. I focus on three connected questions: how policy changes the care women receive around pregnancy and who bears the consequences; how those changes carry forward to infants and the families who care for them; and how legal and regulatory pressure shapes the physicians who deliver care. I answer these questions with quasi-experimental designs and large administrative data, especially health insurance claims linked to provider records.
-
 ## Publications
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
