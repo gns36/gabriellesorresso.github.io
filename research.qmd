@@ -2,6 +2,8 @@
 title: "Research"
 ---
 
+My research studies how health and reproductive policy shapes the health and economic well-being of women, children, and families. I focus on three connected questions: how policy changes the care women receive around pregnancy and who bears the consequences; how those changes carry forward to infants and the families who care for them; and how legal and regulatory pressure shapes the physicians who deliver care. I answer these questions with quasi-experimental designs and large administrative data, especially health insurance claims linked to provider records.
+
 ## Publications
 
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
@@ -16,7 +18,7 @@ with Sharon Sassler. (2026). *RSF: The Russell Sage Foundation Journal of the So
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
 ### It Was Already Dobbs: Abortion Bans and Maternal Health
 
-The Supreme Court's decision in *Dobbs v. Jackson Women's Health Organization* raised concerns that strict state abortion bans would worsen maternal health through delayed emergency care, restricted access to terminations, and reduced OB-GYN supply. Using claims data for nearly one million pregnancies among commercially and Medicaid-insured women from 2020 to 2024, I estimate the effect of these bans in a staggered difference-in-differences design using states that protect abortion rights as controls. Effects on routine care-receipt outcomes are small and precisely estimated; the adverse-pregnancy-outcome composite rules out effects larger than 3.5% of the pre-policy treated mean. Neither shifts in pregnancy composition nor changes in OB-GYN supply explain these results. These findings suggest telehealth abortion access may have absorbed much of the demand shock, while pre-ban restrictions had already limited the marginal effect of bans on downstream care.
+The Supreme Court's decision in *Dobbs v. Jackson Women's Health Organization* raised concerns that strict state abortion bans would worsen maternal health, especially for Medicaid-covered, Black, and Hispanic women. Using health insurance claims for commercially and Medicaid-insured pregnancies from 2020 to 2024, I compare states that enacted bans with states that protect abortion in a stacked difference-in-differences design. Because claims record each woman's health in the year before conception, I can separate whether bans changed *who* becomes pregnant from *what happens* to women once pregnant. I also test the channels through which harm was expected to travel: the management of miscarriage and ectopic pregnancy, care received out of state, and the supply of OB-GYNs.
 
 <span class="pill-tag">Scheduled Presentation: SEA 2026</span>
 :::
@@ -45,4 +47,6 @@ with Sharon Sassler
 
 ::: {.card-soft style="margin-top: 1.5rem;"}
 ### Born After Dobbs: Abortion Bans, Prenatal Diagnosis, and the Prevalence of Congenital Conditions
+
+Abortion bans may change which pregnancies continue after a serious prenatal diagnosis. I test whether bans raised the prevalence at birth of conditions usually detected during pregnancy, such as Down syndrome, relative to conditions that cannot be detected before birth, and follow affected infants through their first year of care.
 :::
