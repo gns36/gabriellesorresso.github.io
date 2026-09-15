@@ -18,11 +18,11 @@ title: ""
 
 ::: {.g-col-12 .g-col-md-8 .bio-block}
 
-Hi, I'm Gabrielle — a 5th-year PhD candidate at the Cornell Jeb E. Brooks School of Public Policy. I'm an applied microeconomist studying maternal, infant, and family health. I use causal inference methods and large-scale administrative data, primarily healthcare claims, to study how health and reproductive policy affects women before, during, and after pregnancy and the health of their children, with attention to how these effects differ by insurance coverage, race and ethnicity, and place.
+Hi, I'm Gabrielle — a 5th-year PhD candidate at the Cornell Jeb E. Brooks School of Public Policy. I'm an applied microeconomist studying maternal, infant, and family health. I use causal inference methods and large-scale administrative data, primarily healthcare claims. The core of my current research agenda is how health and reproductive policy affects women before, during, and after pregnancy, as well as the health of their children. I pay particular attention to how these effects differ by insurance coverage, race and ethnicity, and place.
 
 My current work examines the *Dobbs* decision: how state abortion bans affected maternal health and changed who becomes pregnant, and whether they changed the prevalence of congenital conditions among infants born after the bans. This work was recognized with the [Horowitz Foundation's Most Outstanding Project Award](https://publicpolicy.cornell.edu/news/brooks-phd-student-earns-horowitz-foundations-most-outstanding-project-award/). To answer these questions, I built a pregnancy-level dataset from raw insurance claims that follows women from the year before conception through the year after birth. I also have joint work with [Colleen Carey](https://sites.google.com/site/colleenmariecarey/) and [Amanda Agan](https://sites.google.com/site/amandayagan/) on how state medical board discipline shapes physicians' careers and provision of care, and with [Sharon Sassler](https://www.human.cornell.edu/people/ss589) on gender wage gaps and spousal occupation.
 
-I am affiliated with the Cornell Population Center and the Cornell Health Policy Center.
+I am affiliated with the [Cornell Population Center](https://publicpolicy.cornell.edu/cpc/) and the [Cornell Health Policy Center](https://publicpolicy.cornell.edu/chpc/).
 
 <a class="btn btn-primary" href="mailto:gns36@cornell.edu">Email Me</a>
 <a class="btn btn-primary" href="cv.qmd">View CV</a>
