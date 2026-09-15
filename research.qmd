@@ -42,7 +42,9 @@ with Sharon Sassler
 ## Works in Progress
 
 ::: {.card-soft}
-### Childhood Air Pollution Exposure and Mental Health: Evidence from Claims Data
+### Hard to Concentrate: Prenatal Air Pollution and Childhood ADHD
+
+Using medical claims for millions of children and Clean Air Act nonattainment designations that required states to reduce fine particulate pollution, I study whether exposure before birth raises the probability of an ADHD diagnosis later in childhood. Preliminary evidence shows that higher county air pollution is associated with more visits for ADHD, anxiety, and depression among children in the same year.
 :::
 
 ::: {.card-soft style="margin-top: 1.5rem;"}
