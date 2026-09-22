@@ -8,6 +8,9 @@ project:
 website:
   title: "Gabrielle Sorresso"
   site-url: "https://gabriellesorresso.com"
+  description: "Applied microeconomist and PhD candidate at Cornell's Brooks School of Public Policy, studying maternal, infant, and family health using large-scale health claims data."
+  open-graph: true
+  twitter-card: true
   favicon: images/favicon.svg
   search: false
   navbar:
@@ -36,6 +39,7 @@ website:
 
 format:
   html:
+    include-in-header: head-seo.html
     theme:
       - cosmo
       - styles.scss

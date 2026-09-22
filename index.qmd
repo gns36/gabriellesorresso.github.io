@@ -1,5 +1,6 @@
 ---
 title: ""
+description: "Applied microeconomist and PhD candidate at Cornell's Brooks School of Public Policy, studying maternal, infant, and family health using large-scale health claims data."
 ---
 
 :::: {.grid}
