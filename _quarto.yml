@@ -1,10 +1,13 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - googlea3e6748ab0bfb9be.html
+    - CNAME
 
 website:
   title: "Gabrielle Sorresso"
-  site-url: "https://gns36.github.io/gabriellesorresso.github.io"
+  site-url: "https://gabriellesorresso.com"
   favicon: images/favicon.svg
   search: false
   navbar:
