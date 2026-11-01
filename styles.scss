@@ -163,6 +163,17 @@ a:hover {
   color: white;
 }
 
+.btn-navy {
+  background-color: $navy;
+  border-color: $navy;
+  color: white !important;
+}
+
+.btn-navy:hover {
+  background-color: lighten($navy, 10%);
+  border-color: lighten($navy, 10%);
+}
+
 .btn-outline {
   background-color: transparent;
   border: 1.5px solid $sage-light;
