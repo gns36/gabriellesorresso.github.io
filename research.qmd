@@ -16,7 +16,7 @@ with Sharon Sassler. (2026). *RSF: The Russell Sage Foundation Journal of the So
 ::: {.card-soft style="margin-bottom: 1.5rem;"}
 ### It Was Already Dobbs: Abortion Bans and Maternal Health
 
-Clinicians warned that the *Dobbs* abortion bans would harm maternal health, but ban states had restricted abortion for over a decade, possibly limiting a full ban's effect. Using claims on nearly 1 million insured pregnancies and a stacked difference-in-differences design, I find suggestive evidence that the bans raised fertility and the live-birth share of pregnancies. More deliveries brought more prenatal visits and a small rise in adverse pregnancy outcomes, with estimates ruling out increases above 4.9 percent. Other health and care outcomes changed little. Restoring the federal right to abortion alone may not meaningfully change maternal health for insured women.
+Clinicians warned that post-*Dobbs* bans would harm maternal health, but ban states had long restricted abortion, possibly limiting a full ban's effect. Using claims on nearly 1 million insured pregnancies and stacked difference-in-differences, I find that the bans changed maternal health and the timing and intensity of care little, while suggestively raising fertility and the live-birth share. Adverse pregnancy outcomes rose 2.8 percent, consistent with more deliveries, but intervals rule out increases above 4.9 percent, and above 5.6 percent for severe maternal morbidity. Restoring a federal abortion right alone may not meaningfully improve insured women's maternal health.
 
 <a class="btn btn-navy" href="files/Sorresso_It_Was_Already_Dobbs_Working_Paper.pdf" download="Sorresso_It_Was_Already_Dobbs_Working_Paper.pdf">Download Working Paper</a>
 
